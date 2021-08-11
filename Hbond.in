@@ -1,0 +1,6 @@
+parm NoW.RBD-Helix.rec.wat.leap.prmtop
+trajin RBD-Helix.NoWAT.mdcrd.nc
+hbond contacts :1-226 avgout avg.dat series uuseries hbond.gnu nointramol 
+go
+lifetime contacts[solutehb] out contacts-lifetime.dat
+go

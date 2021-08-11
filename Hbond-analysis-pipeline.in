@@ -1,0 +1,6 @@
+
+$AMBERHOME/bin/cpptraj -i Hbond.in
+
+awk '{print $6'} contacts-lifetime.dat > InterMolHB-Pairs.txt
+
+python hbond-pytraj.py
